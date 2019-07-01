@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE7" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="ico/png" href="images/favicon.ico" type="image/icon" />
+    <link rel="ico/png" href="images/favicon.png" type="image/icon" />
+    <!--[if lte IE 8]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+        <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js&quot; type="text/javascript"></script>
+        <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/ie7-squish.js&quot; type="text/javascript"></script>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js&quot; type="text/javascript"></script>
+        <![endif]-->
+    <title>.:: Login</title>
+    <link
+      href="stylesheets/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="stylesheets/anim.css" />
+    <link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="wrapper_inner">
+      <div class="popup" id="popup">
+        <div class="popbox">
+          <div class="closeBtn" sg-close="popup">
+            <i class="fa fa-times"></i>
+          </div>
+          <h2>Text popup</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            est placeat in minus deserunt quidem mollitia alias quibusdam
+            dolorem fugit libero, rerum distinctio. Quasi similique maxime
+            voluptates dolorem! Eos, repudiandae?
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="wrapper_inner">
+        <div class="wrapper navigation">
+          <div class="logo">Nothing!</div>
+          <ul class="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li>
+              <a href="javascript:;" sg-dropdown="submenu"
+                >Services <i class="fa fa-angle-down"></i
+              ></a>
+              <ul class="submenu">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li>
+                  <a href="javascript:;" sg-dropdown="submenu2"
+                    >Services <i class="fa fa-angle-right"></i
+                  ></a>
+                  <ul class="submenu2">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Events</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Contact</a></li>
+                  </ul>
+                </li>
+                <li><a href="">Events</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </li>
+            <li><a href="">Events</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Contact</a></li>
+            <li class="last">
+              <a href="javascript:;" sg-popup="popup">Model</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="wrapper_inner">
+        <ul class="wrapper tabs">
+          <li sg-tab="tab1">Tab1</li>
+          <li sg-tab="tab2">Tab2</li>
+          <li sg-tab="tab3">Tab3</li>
+        </ul>
+        <div class="wrapper" id="tab1" sg-tabs>
+          <h2>Tab1</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nam
+            impedit, libero placeat alias voluptatem enim repudiandae suscipit
+            inventore nemo rerum in dolores eligendi nulla soluta. Iure repellat
+            eum nobis.
+          </p>
+        </div>
+        <div class="wrapper" id="tab2" sg-tabs>
+          <h2>Tab2</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nam
+            impedit, libero placeat alias voluptatem enim repudiandae suscipit
+            inventore nemo rerum in dolores eligendi nulla soluta. Iure repellat
+            eum nobis.
+          </p>
+        </div>
+        <div class="wrapper" id="tab3" sg-tabs>
+          <h2>Tab3</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nam
+            impedit, libero placeat alias voluptatem enim repudiandae suscipit
+            inventore nemo rerum in dolores eligendi nulla soluta. Iure repellat
+            eum nobis.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper"><br /><br /></div>
+
+    <div class="wrapper">
+      <div class="wrapper_inner">
+        <div class="wrapper accordian">
+          <h2 class="wrapper" sg-accordian="accordian1">Tab1</h2>
+          <div class="wrapper" id="accordian1" sg-accordians>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+              nam impedit, libero placeat alias voluptatem enim repudiandae
+              suscipit inventore nemo rerum in dolores eligendi nulla soluta.
+              Iure repellat eum nobis.
+            </p>
+          </div>
+        </div>
+        <div class="wrapper accordian">
+          <h2 class="wrapper" sg-accordian="accordian2">Tab2</h2>
+          <div class="wrapper" id="accordian2" sg-accordians>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+              nam impedit, libero placeat alias voluptatem enim repudiandae
+              suscipit inventore nemo rerum in dolores eligendi nulla soluta.
+              Iure repellat eum nobis.
+            </p>
+          </div>
+        </div>
+        <div class="wrapper accordian">
+          <h2 class="wrapper" sg-accordian="accordian3">Tab3</h2>
+          <div class="wrapper" id="accordian3" sg-accordians>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+              nam impedit, libero placeat alias voluptatem enim repudiandae
+              suscipit inventore nemo rerum in dolores eligendi nulla soluta.
+              Iure repellat eum nobis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="javascript:;" class="scrollup"
+      ><i class="fa fa-angle-up"></i>top</a
+    >
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script
+      type="text/javascript"
+      src="js/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script src="js/functions.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      "use strict";
+      $(document).on("click", "[sg-popup]", function() {
+        const slideup = $(this).attr("sg-popup");
+        // console.log(slideup);
+        $("#" + slideup).show();
+      });
+      $(document).on("click", "[sg-close]", function() {
+        const slideclose = $(this).attr("sg-close");
+        // console.log(slideclose);
+        $("#" + slideclose).hide();
+      });
+      $("[sg-dropdown]").click(function() {
+        const dropdown = $(this).attr("sg-dropdown");
+        // console.log(dropdown);
+        $("." + dropdown).slideToggle();
+        $(this).toggleClass("close-icon");
+      });
+      $("[sg-tabs]").hide();
+      $("[sg-tabs]:first").show();
+      $("[sg-tab]:first").addClass("is-open");
+      $("[sg-tab]").click(function() {
+        const sgtab = $(this).attr("sg-tab");
+        // console.log(sgtab);
+        $("[sg-tab]").removeClass("is-open");
+        $(this).addClass("is-open");
+        $("[sg-tabs]").hide();
+        $("#" + sgtab).show();
+      });
+
+      $("[sg-accordian]").click(function() {
+        const accordian = $(this).attr("sg-accordian");
+        $("[sg-accordians]").slideUp("500");
+        $("[sg-accordian]").removeClass("is-open");
+        const accordianTab = $(this).next("#" + accordian);
+        if (accordianTab.is(":hidden")) {
+          accordianTab.slideDown("500");
+          $(this).addClass("is-open");
+        } else {
+          accordianTab.slideUp("500");
+          $(this).removeClass("is-open");
+        }
+      });
+    </script>
+  </body>
+</html>
